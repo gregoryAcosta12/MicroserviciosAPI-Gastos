@@ -1,0 +1,61 @@
+# ========================================
+# API-CATEGORIA-SERVICE - TESTING ENDPOINTS
+# ========================================
+
+# Variables
+@baseUrl = http://localhost:5002
+@token = {{login.response.body.token}}
+
+### 1. HEALTH CHECK
+GET {{baseUrl}}/health
+
+### 2. LOGIN - Obtener token para pruebas
+# @name login
+POST http://localhost:5003/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "admin@email.com",
+    "password": "Admin123!"
+}
+
+### 3. OBTENER TODAS LAS CATEGORÍAS
+GET {{baseUrl}}/api/categorias
+Authorization: Bearer {{token}}
+
+### 4. OBTENER CATEGORÍA POR ID
+GET {{baseUrl}}/api/categorias/1
+Authorization: Bearer {{token}}
+
+### 5. VALIDAR CATEGORÍA (endpoint público)
+GET {{baseUrl}}/api/categorias/1/validar
+
+### 6. CREAR CATEGORÍA
+POST {{baseUrl}}/api/categorias
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nombre": "Salud",
+    "descripcion": "Gastos de salud y medicina",
+    "color": "#dc3545",
+    "icono": "fa-heartbeat"
+}
+
+### 7. ACTUALIZAR CATEGORÍA
+PUT {{baseUrl}}/api/categorias/1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "id": 1,
+    "nombre": "Alimentación",
+    "descripcion": "Gastos de comida y alimentación",
+    "color": "#28a745",
+    "icono": "fa-utensils",
+    "activo": true
+}
+
+### 8. ELIMINAR CATEGORÍA
+DELETE {{baseUrl}}/api/categorias/5
+Authorization: Bearer {{token}}

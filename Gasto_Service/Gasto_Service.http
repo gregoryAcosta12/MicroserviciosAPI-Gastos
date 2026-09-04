@@ -1,0 +1,75 @@
+# ========================================
+# API-GASTO-SERVICE - TESTING ENDPOINTS
+# ========================================
+
+# Variables
+@baseUrl = http://localhost:5001
+@token = {{login.response.body.token}}
+
+### 1. HEALTH CHECK
+GET {{baseUrl}}/health
+
+### 2. LOGIN - Obtener token para pruebas
+# @name login
+POST http://localhost:5003/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "admin@email.com",
+    "password": "Admin123!"
+}
+
+### 3. CREAR GASTO
+POST {{baseUrl}}/api/gastos
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "monto": 250.00,
+    "descripcion": "Compra de libros",
+    "fecha": "2026-08-18T10:00:00",
+    "categoriaId": 1,
+    "metodoPago": "Tarjeta",
+    "estado": "Pendiente",
+    "esRecurrente": false
+}
+
+### 4. OBTENER TODOS LOS GASTOS
+GET {{baseUrl}}/api/gastos?pageNumber=1&pageSize=10
+Authorization: Bearer {{token}}
+
+### 5. OBTENER GASTO POR ID
+GET {{baseUrl}}/api/gastos/1
+Authorization: Bearer {{token}}
+
+### 6. ACTUALIZAR GASTO
+PUT {{baseUrl}}/api/gastos/1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "id": 1,
+    "monto": 300.00,
+    "descripcion": "Compra de libros actualizada",
+    "fecha": "2026-08-18T10:00:00",
+    "categoriaId": 1,
+    "metodoPago": "Efectivo",
+    "estado": "Pagado",
+    "esRecurrente": false
+}
+
+### 7. ELIMINAR GASTO
+DELETE {{baseUrl}}/api/gastos/3
+Authorization: Bearer {{token}}
+
+### 8. OBTENER RESUMEN DE GASTOS
+GET {{baseUrl}}/api/gastos/resumen?fechaInicio=2026-08-01&fechaFin=2026-08-31
+Authorization: Bearer {{token}}
+
+### 9. FILTRAR GASTOS POR FECHA
+GET {{baseUrl}}/api/gastos?fechaInicio=2026-08-01&fechaFin=2026-08-18
+Authorization: Bearer {{token}}
+
+### 10. FILTRAR GASTOS POR CATEGORÍA
+GET {{baseUrl}}/api/gastos?categoriaId=1
+Authorization: Bearer {{token}}

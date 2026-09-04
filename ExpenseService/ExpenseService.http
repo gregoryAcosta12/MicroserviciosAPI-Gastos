@@ -1,0 +1,73 @@
+# ========================================
+# API-GATEWAY - TESTING ENDPOINTS
+# ========================================
+
+### 1. PING - Verificar que el gateway está vivo
+GET http://localhost:5000/api/gateway/ping
+
+### 2. STATUS - Estado del gateway y servicios
+GET http://localhost:5000/api/gateway/status
+
+### 3. HEALTH - Health check del gateway
+GET http://localhost:5000/health
+
+### 4. HEALTH FULL - Health check completo de todos los servicios
+GET http://localhost:5000/api/health/full
+
+### 5. ROUTES - Obtener rutas configuradas (requiere autenticación)
+GET http://localhost:5000/api/gateway/routes
+Authorization: Bearer {{token}}
+
+### 6. SECURE PING - Endpoint seguro (requiere autenticación)
+GET http://localhost:5000/api/gateway/secure-ping
+Authorization: Bearer {{token}}
+
+### 7. LOGIN - Obtener token
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "admin@email.com",
+    "password": "Admin123!"
+}
+
+### 8. REGISTER - Registrar usuario
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "nombre": "Juan Pérez",
+    "email": "juan@email.com",
+    "password": "Password123!",
+    "confirmPassword": "Password123!"
+}
+
+### 9. CREAR GASTO (requiere autenticación)
+POST http://localhost:5000/api/gastos
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "monto": 150.00,
+    "categoriaId": 1,
+    "descripcion": "Cena en restaurante",
+    "fecha": "2026-08-18"
+}
+
+### 10. OBTENER GASTOS (requiere autenticación)
+GET http://localhost:5000/api/gastos
+Authorization: Bearer {{token}}
+
+### 11. OBTENER CATEGORÍAS (requiere autenticación)
+GET http://localhost:5000/api/categorias
+Authorization: Bearer {{token}}
+
+### 12. CREAR CATEGORÍA (requiere autenticación)
+POST http://localhost:5000/api/categorias
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nombre": "Transporte",
+    "descripcion": "Gastos de transporte"
+}

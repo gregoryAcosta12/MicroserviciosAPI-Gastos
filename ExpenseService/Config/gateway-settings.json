@@ -1,0 +1,25 @@
+﻿{
+    "RateLimiting": {
+        "Enabled": true,
+        "RequestsPerSecond": 10,
+        "Burst": 20
+    },
+    "Cors": {
+        "AllowedOrigins": [
+            "http://localhost:4200",
+            "http://localhost:3000",
+            "http://localhost:5173"
+        ],
+        "AllowedMethods": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
+        "AllowedHeaders": [ "Authorization", "Content-Type" ]
+    },
+    "Timeout": {
+        "DefaultTimeoutSeconds": 30,
+        "LongTimeoutSeconds": 60
+    },
+    "CircuitBreaker": {
+        "Enabled": true,
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreakSeconds": 30
+    }
+}

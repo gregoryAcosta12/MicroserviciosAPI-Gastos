@@ -1,0 +1,1707 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\infrastructure\\events\\integrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\infrastructure\\events\\usuariocreadoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\tests\\integrationtests\\messaging\\rabbitmqintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\tests\\integrationtests\\caching\\redisintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\tests\\unittests\\infrastructure\\events\\integrationeventtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\tests\\unittests\\authentication\\jwttokenservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\tests\\unittests\\common\\dtostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\tests\\unittests\\common\\enumstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\tests\\unittests\\common\\constantstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\logging\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\caching\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\caching\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\authentication\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\infrastructure\\messaging\\implementations\\rabbitmqmessagebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\infrastructure\\messaging\\interfaces\\ieventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\infrastructure\\messaging\\interfaces\\imessagebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\infrastructure\\events\\categoriaactualizadaevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\infrastructure\\events\\gastocreadoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\infrastructure\\events\\gastoeliminadoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\dtos\\paginatedresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\dtos\\baseresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\enums\\tipogasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\enums\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\enums\\estadogasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\common\\constants\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\common\\constants\\applicationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\consumers\\gastocreadoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\api_categoria-service.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\validators\\categoriaupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\validators\\categoriacreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\publishers\\categoriaeventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\repositories\\implementations\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\services\\implementations\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\services\\interfaces\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\dtos\\categoriaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\dtos\\categoriacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\dtos\\categoriaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\controllers\\gastoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\interfaces\\igatewayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:interfaces\\igatewayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\gasto_service.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\validators\\gastoupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\validators\\gastocreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\consumers\\categoriaactualizadaconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\consumers\\usuariocreadoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\publishers\\gastoeventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\services\\interfaces\\igastoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\services\\implementations\\reporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\services\\implementations\\gastoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\repositories\\implementations\\gastorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\repositories\\interfaces\\ireporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\repositories\\interfaces\\igastorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\dtos\\responses\\gastodetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\dtos\\responses\\gastoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\dtos\\requests\\gastofilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\dtos\\requests\\gastoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\dtos\\requests\\gastocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\data\\configurations\\gastoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\models\\gastodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\models\\gasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\publishers\\usuarioeventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\services\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\services\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\services\\implementations\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\services\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\expenseservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:expenseservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\middleware\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:middleware\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\services\\gatewayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:services\\gatewayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\controllers\\gatewaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:controllers\\gatewaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\config\\gateway-settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:config\\gateway-settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\config\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:config\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C06285-9DA0-4CF2-90CC-6A8F475394FE}|..\\Shared-Kernel\\Shared_Kernel.csproj|c:\\users\\acost\\pictures\\api-gastos\\shared-kernel\\deployment\\docker\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711FC09A-654B-4CF8-ACFA-957F012F4859}|..\\API-Usuario-Service\\UsuarioService.csproj|c:\\users\\acost\\pictures\\api-gastos\\api-usuario-service\\dtos\\usuarioresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B778F4B-8644-4F4E-AB99-FB3773EEBCFA}|..\\API_Categoria-Service\\Categoria-Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\api_categoria-service\\categoria-service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC65008-BD57-407A-A576-AA3D43A590DA}|..\\Gasto_Service\\Gasto_Service.csproj|c:\\users\\acost\\pictures\\api-gastos\\gasto_service\\gasto_service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|c:\\users\\acost\\pictures\\api-gastos\\expenseservice\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BA9045-7799-46F6-801B-74FE1FC07F79}|Gateway.csproj|solutionrelative:middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RabbitMQIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\IntegrationTests\\Messaging\\RabbitMQIntegrationTests.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\tests\\IntegrationTests\\Messaging\\RabbitMQIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\IntegrationTests\\Messaging\\RabbitMQIntegrationTests.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\tests\\IntegrationTests\\Messaging\\RabbitMQIntegrationTests.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:34:06.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RedisIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\IntegrationTests\\Caching\\RedisIntegrationTests.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\tests\\IntegrationTests\\Caching\\RedisIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\IntegrationTests\\Caching\\RedisIntegrationTests.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\tests\\IntegrationTests\\Caching\\RedisIntegrationTests.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAADwv14AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:33:30.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IntegrationEventTests.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\UnitTests\\Infrastructure\\Events\\IntegrationEventTests.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\tests\\UnitTests\\Infrastructure\\Events\\IntegrationEventTests.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\UnitTests\\Infrastructure\\Events\\IntegrationEventTests.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\tests\\UnitTests\\Infrastructure\\Events\\IntegrationEventTests.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAADwv2YAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:32:39.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioCreadoEvent.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Events\\UsuarioCreadoEvent.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Infrastructure\\Events\\UsuarioCreadoEvent.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Events\\UsuarioCreadoEvent.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Infrastructure\\Events\\UsuarioCreadoEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T15:07:18.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IntegrationEvent.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Events\\IntegrationEvent.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Infrastructure\\Events\\IntegrationEvent.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Events\\IntegrationEvent.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Infrastructure\\Events\\IntegrationEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T15:06:49.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtTokenServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\UnitTests\\Authentication\\JwtTokenServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\tests\\UnitTests\\Authentication\\JwtTokenServiceTests.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\UnitTests\\Authentication\\JwtTokenServiceTests.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\tests\\UnitTests\\Authentication\\JwtTokenServiceTests.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAADwv4QAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:31:51.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DTOsTests.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\UnitTests\\Common\\DTOsTests.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\tests\\UnitTests\\Common\\DTOsTests.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\UnitTests\\Common\\DTOsTests.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\tests\\UnitTests\\Common\\DTOsTests.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAADwv3gAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:31:18.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnumsTests.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\UnitTests\\Common\\EnumsTests.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\tests\\UnitTests\\Common\\EnumsTests.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\UnitTests\\Common\\EnumsTests.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\tests\\UnitTests\\Common\\EnumsTests.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAADwv3gAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:31:03.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConstantsTests.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\UnitTests\\Common\\ConstantsTests.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\tests\\UnitTests\\Common\\ConstantsTests.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\tests\\UnitTests\\Common\\ConstantsTests.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\tests\\UnitTests\\Common\\ConstantsTests.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAADwv24AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:30:42.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoggerService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Logging\\LoggerService.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Logging\\LoggerService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Logging\\LoggerService.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Logging\\LoggerService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwv1MAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:28:45.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Caching\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Caching\\RedisCacheService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Caching\\RedisCacheService.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Caching\\RedisCacheService.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAADwv3QAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:28:08.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Caching\\ICacheService.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Caching\\ICacheService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Caching\\ICacheService.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Caching\\ICacheService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvx0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:27:50.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Authentication\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Authentication\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Authentication\\JwtTokenService.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Authentication\\JwtTokenService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAADwv3gAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:27:29.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriaActualizadaEvent.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Events\\CategoriaActualizadaEvent.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Infrastructure\\Events\\CategoriaActualizadaEvent.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Events\\CategoriaActualizadaEvent.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Infrastructure\\Events\\CategoriaActualizadaEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T15:07:08.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RabbitMQMessageBus.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Messaging\\Implementations\\RabbitMQMessageBus.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Infrastructure\\Messaging\\Implementations\\RabbitMQMessageBus.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Messaging\\Implementations\\RabbitMQMessageBus.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Infrastructure\\Messaging\\Implementations\\RabbitMQMessageBus.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAADwv/kAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T15:05:44.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IMessageBus.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Messaging\\Interfaces\\IMessageBus.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Infrastructure\\Messaging\\Interfaces\\IMessageBus.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Messaging\\Interfaces\\IMessageBus.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Infrastructure\\Messaging\\Interfaces\\IMessageBus.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvx8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T15:04:55.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Messaging\\Interfaces\\IEventHandler.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Infrastructure\\Messaging\\Interfaces\\IEventHandler.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Messaging\\Interfaces\\IEventHandler.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Infrastructure\\Messaging\\Interfaces\\IEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T15:05:06.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GastoCreadoEvent.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Events\\GastoCreadoEvent.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Infrastructure\\Events\\GastoCreadoEvent.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Events\\GastoCreadoEvent.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Infrastructure\\Events\\GastoCreadoEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T15:06:58.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GastoEliminadoEvent.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Events\\GastoEliminadoEvent.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Infrastructure\\Events\\GastoEliminadoEvent.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Infrastructure\\Events\\GastoEliminadoEvent.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Infrastructure\\Events\\GastoEliminadoEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:25:45.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaginatedResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\DTOs\\PaginatedResponseDTO.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\DTOs\\PaginatedResponseDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\DTOs\\PaginatedResponseDTO.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\DTOs\\PaginatedResponseDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:24:34.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\DTOs\\BaseResponseDTO.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\DTOs\\BaseResponseDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\DTOs\\BaseResponseDTO.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\DTOs\\BaseResponseDTO.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:24:19.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TipoGasto.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Enums\\TipoGasto.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Enums\\TipoGasto.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Enums\\TipoGasto.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Enums\\TipoGasto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvyEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:24:00.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MetodoPago.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Enums\\MetodoPago.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Enums\\MetodoPago.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Enums\\MetodoPago.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Enums\\MetodoPago.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvykAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:23:39.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EstadoGasto.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Enums\\EstadoGasto.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Enums\\EstadoGasto.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Enums\\EstadoGasto.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Enums\\EstadoGasto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvyEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:23:24.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ErrorMessages.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Common\\Constants\\ErrorMessages.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Common\\Constants\\ErrorMessages.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Common\\Constants\\ErrorMessages.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Common\\Constants\\ErrorMessages.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv0sAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:22:55.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplicationConstants.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Common\\Constants\\ApplicationConstants.cs",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\Common\\Constants\\ApplicationConstants.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\Common\\Constants\\ApplicationConstants.cs",
+              "RelativeToolTip": "..\\Shared-Kernel\\Common\\Constants\\ApplicationConstants.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvzQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:22:36.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "API_Categoria-Service.http",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\API_Categoria-Service.http",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\API_Categoria-Service.http",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\API_Categoria-Service.http",
+              "RelativeToolTip": "..\\API_Categoria-Service\\API_Categoria-Service.http",
+              "ViewState": "AgIAACkAAAAAAAAAAADwvzwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-08-29T00:20:41.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoriaUpdateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Validators\\CategoriaUpdateValidator.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Validators\\CategoriaUpdateValidator.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Validators\\CategoriaUpdateValidator.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Validators\\CategoriaUpdateValidator.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvx4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:20:28.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoriaCreateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Validators\\CategoriaCreateValidator.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Validators\\CategoriaCreateValidator.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Validators\\CategoriaCreateValidator.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Validators\\CategoriaCreateValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:20:11.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GastoCreadoConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Consumers\\GastoCreadoConsumer.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Consumers\\GastoCreadoConsumer.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Consumers\\GastoCreadoConsumer.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Consumers\\GastoCreadoConsumer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvyoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:37:51.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAwwMUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:34:45.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Services\\Implementations\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Services\\Implementations\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Services\\Implementations\\CategoriaService.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Services\\Implementations\\CategoriaService.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAADwv8AAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:32:45.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAADwvz0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:33:35.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoriaEventPublisher.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Publishers\\CategoriaEventPublisher.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Publishers\\CategoriaEventPublisher.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Publishers\\CategoriaEventPublisher.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Publishers\\CategoriaEventPublisher.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv0wAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:40:44.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ICategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Services\\Interfaces\\ICategoriaService.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Services\\Interfaces\\ICategoriaService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Services\\Interfaces\\ICategoriaService.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Services\\Interfaces\\ICategoriaService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvzQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:32:22.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Controllers\\HealthController.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Controllers\\HealthController.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Controllers\\HealthController.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Controllers\\HealthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvysAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:27:29.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAADwv7AAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:24:50.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CategoriaUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\DTOs\\CategoriaUpdateDTO.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\DTOs\\CategoriaUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\DTOs\\CategoriaUpdateDTO.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\DTOs\\CategoriaUpdateDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:28:56.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CategoriaCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\DTOs\\CategoriaCreateDTO.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\DTOs\\CategoriaCreateDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\DTOs\\CategoriaCreateDTO.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\DTOs\\CategoriaCreateDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:17:16.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv04AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:35:42.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Models\\Categoria.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Models\\Categoria.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:27:56.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\appsettings.Development.json",
+              "RelativeToolTip": "..\\API_Categoria-Service\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-29T00:15:34.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CategoriaResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\DTOs\\CategoriaResponseDTO.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\DTOs\\CategoriaResponseDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\DTOs\\CategoriaResponseDTO.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\DTOs\\CategoriaResponseDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:29:09.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\appsettings.json",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\appsettings.json",
+              "RelativeToolTip": "..\\API_Categoria-Service\\appsettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-29T00:15:37.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Program.cs",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Program.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Program.cs",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Program.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAADwv58AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:15:09.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:06:29.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:50:55.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GastosController.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Controllers\\GastosController.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Controllers\\GastosController.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Controllers\\GastosController.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Controllers\\GastosController.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAADwv68AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:00:25.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Controllers\\HealthController.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Controllers\\HealthController.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Controllers\\HealthController.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Controllers\\HealthController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvy8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:00:36.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IGatewayService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Interfaces\\IGatewayService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IGatewayService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Interfaces\\IGatewayService.cs",
+              "RelativeToolTip": "Interfaces\\IGatewayService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T23:53:16.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Gasto_Service.http",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Gasto_Service.http",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Gasto_Service.http",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Gasto_Service.http",
+              "RelativeToolTip": "..\\Gasto_Service\\Gasto_Service.http",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv0oAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-08-29T00:05:32.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "GastoUpdateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Validators\\GastoUpdateValidator.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Validators\\GastoUpdateValidator.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Validators\\GastoUpdateValidator.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Validators\\GastoUpdateValidator.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvyAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:05:14.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GastoCreateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Validators\\GastoCreateValidator.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Validators\\GastoCreateValidator.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Validators\\GastoCreateValidator.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Validators\\GastoCreateValidator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvykAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:04:57.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CategoriaActualizadaConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Consumers\\CategoriaActualizadaConsumer.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Consumers\\CategoriaActualizadaConsumer.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Consumers\\CategoriaActualizadaConsumer.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Consumers\\CategoriaActualizadaConsumer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:04:34.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IGastoService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Services\\Interfaces\\IGastoService.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Services\\Interfaces\\IGastoService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Services\\Interfaces\\IGastoService.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Services\\Interfaces\\IGastoService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvy8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:02:41.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ReporteService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Services\\Implementations\\ReporteService.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Services\\Implementations\\ReporteService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Services\\Implementations\\ReporteService.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Services\\Implementations\\ReporteService.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAADwv6UAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:02:27.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "GastoService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Services\\Implementations\\GastoService.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Services\\Implementations\\GastoService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Services\\Implementations\\GastoService.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Services\\Implementations\\GastoService.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAADwv84AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:02:01.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "GastoEventPublisher.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Publishers\\GastoEventPublisher.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Publishers\\GastoEventPublisher.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Publishers\\GastoEventPublisher.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Publishers\\GastoEventPublisher.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv1AAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T15:08:16.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UsuarioCreadoConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Consumers\\UsuarioCreadoConsumer.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Consumers\\UsuarioCreadoConsumer.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Consumers\\UsuarioCreadoConsumer.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Consumers\\UsuarioCreadoConsumer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T15:07:41.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GastoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Repositories\\Implementations\\GastoRepository.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Repositories\\Implementations\\GastoRepository.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Repositories\\Implementations\\GastoRepository.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Repositories\\Implementations\\GastoRepository.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAADwv/YAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:03:14.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IReporteService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Repositories\\Interfaces\\IReporteService.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Repositories\\Interfaces\\IReporteService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Repositories\\Interfaces\\IReporteService.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Repositories\\Interfaces\\IReporteService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvzsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:01:48.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IGastoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Repositories\\Interfaces\\IGastoRepository.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Repositories\\Interfaces\\IGastoRepository.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Repositories\\Interfaces\\IGastoRepository.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Repositories\\Interfaces\\IGastoRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvzMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:00:50.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "GastoDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\DTOs\\Responses\\GastoDetailDTO.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\DTOs\\Responses\\GastoDetailDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\DTOs\\Responses\\GastoDetailDTO.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\DTOs\\Responses\\GastoDetailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:00:16.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "GastoResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\DTOs\\Responses\\GastoResponseDTO.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\DTOs\\Responses\\GastoResponseDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\DTOs\\Responses\\GastoResponseDTO.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\DTOs\\Responses\\GastoResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:00:07.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "GastoFilterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\DTOs\\Requests\\GastoFilterDTO.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\DTOs\\Requests\\GastoFilterDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\DTOs\\Requests\\GastoFilterDTO.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\DTOs\\Requests\\GastoFilterDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T23:59:52.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "GastoUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\DTOs\\Requests\\GastoUpdateDTO.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\DTOs\\Requests\\GastoUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\DTOs\\Requests\\GastoUpdateDTO.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\DTOs\\Requests\\GastoUpdateDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvx0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T23:59:42.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "GastoCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\DTOs\\Requests\\GastoCreateDTO.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\DTOs\\Requests\\GastoCreateDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\DTOs\\Requests\\GastoCreateDTO.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\DTOs\\Requests\\GastoCreateDTO.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T23:59:32.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "GastoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Data\\Configurations\\GastoConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Data\\Configurations\\GastoConfiguration.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Data\\Configurations\\GastoConfiguration.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Data\\Configurations\\GastoConfiguration.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvxoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T23:59:18.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwv0AAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T23:59:08.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "GastoDetalle.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Models\\GastoDetalle.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Models\\GastoDetalle.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Models\\GastoDetalle.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Models\\GastoDetalle.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T23:58:46.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\appsettings.json",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\appsettings.json",
+              "RelativeToolTip": "..\\Gasto_Service\\appsettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-28T23:57:34.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Program.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Program.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Program.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAAAKYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T23:57:08.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Services\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Services\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwv4wAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T15:20:03.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Repositories\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Services\\Repositories\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Repositories\\IUsuarioRepository.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Services\\Repositories\\IUsuarioRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvy4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T15:19:39.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Services\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Services\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:54:23.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Gasto.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Models\\Gasto.cs",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Models\\Gasto.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Models\\Gasto.cs",
+              "RelativeToolTip": "..\\Gasto_Service\\Models\\Gasto.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAADwvy0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:59:40.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:54:34.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "UsuarioEventPublisher.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Publishers\\UsuarioEventPublisher.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Publishers\\UsuarioEventPublisher.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Publishers\\UsuarioEventPublisher.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Publishers\\UsuarioEventPublisher.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvzsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:56:18.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAwwIQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:44:40.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:44:53.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Services\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAADwv8IAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:55:09.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Implementations\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Services\\Implementations\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Services\\Implementations\\UsuarioService.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Services\\Implementations\\UsuarioService.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAADwv6cAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:54:58.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T18:32:07.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "AuthenticationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Middleware\\AuthenticationMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\AuthenticationMiddleware.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Middleware\\AuthenticationMiddleware.cs",
+              "RelativeToolTip": "Middleware\\AuthenticationMiddleware.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAADwv2wAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:31:43.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "ExpenseService.http",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\ExpenseService.http",
+              "RelativeDocumentMoniker": "ExpenseService.http",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\ExpenseService.http",
+              "RelativeToolTip": "ExpenseService.http",
+              "ViewState": "AgIAADUAAAAAAAAAAADwv0gAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-08-24T23:54:37.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Program.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Program.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Program.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Program.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAADwv4gAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T18:18:21.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\appsettings.json",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\appsettings.json",
+              "RelativeToolTip": "..\\API-Usuario-Service\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-27T18:19:04.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvzIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T18:29:07.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "GatewayService.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Services\\GatewayService.cs",
+              "RelativeDocumentMoniker": "Services\\GatewayService.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Services\\GatewayService.cs",
+              "RelativeToolTip": "Services\\GatewayService.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAADwv3YAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:37:24.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\Models\\Usuario.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\Models\\Usuario.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA+wBkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:45:26.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwv1MAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:32:05.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-24T23:48:24.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "GatewayController.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Controllers\\GatewayController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GatewayController.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Controllers\\GatewayController.cs",
+              "RelativeToolTip": "Controllers\\GatewayController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv00AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:29:33.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "gateway-settings.json",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Config\\gateway-settings.json",
+              "RelativeDocumentMoniker": "Config\\gateway-settings.json",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Config\\gateway-settings.json",
+              "RelativeToolTip": "Config\\gateway-settings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-18T14:33:02.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Config\\ocelot.json",
+              "RelativeDocumentMoniker": "Config\\ocelot.json",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Config\\ocelot.json",
+              "RelativeToolTip": "Config\\ocelot.json",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-18T14:32:47.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "appsettings.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\appsettings.cs",
+              "RelativeDocumentMoniker": "appsettings.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\appsettings.cs",
+              "RelativeToolTip": "appsettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:39:01.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Controllers\\HealthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HealthController.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Controllers\\HealthController.cs",
+              "RelativeToolTip": "Controllers\\HealthController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAADwv10AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:30:44.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAADwv3cAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T23:13:06.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\deployment\\docker\\docker-compose.yml",
+              "RelativeDocumentMoniker": "..\\Shared-Kernel\\deployment\\docker\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Shared-Kernel\\deployment\\docker\\docker-compose.yml",
+              "RelativeToolTip": "..\\Shared-Kernel\\deployment\\docker\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-08-19T15:11:52.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "UsuarioResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\DTOs\\UsuarioResponseDTO.cs",
+              "RelativeDocumentMoniker": "..\\API-Usuario-Service\\DTOs\\UsuarioResponseDTO.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API-Usuario-Service\\DTOs\\UsuarioResponseDTO.cs",
+              "RelativeToolTip": "..\\API-Usuario-Service\\DTOs\\UsuarioResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T14:51:38.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Categoria-Service.csproj",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Categoria-Service.csproj",
+              "RelativeDocumentMoniker": "..\\API_Categoria-Service\\Categoria-Service.csproj",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\API_Categoria-Service\\Categoria-Service.csproj",
+              "RelativeToolTip": "..\\API_Categoria-Service\\Categoria-Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-19T14:27:39.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Gasto_Service.csproj",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Gasto_Service.csproj",
+              "RelativeDocumentMoniker": "..\\Gasto_Service\\Gasto_Service.csproj",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\Gasto_Service\\Gasto_Service.csproj",
+              "RelativeToolTip": "..\\Gasto_Service\\Gasto_Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-18T14:47:25.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "LoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Middleware\\LoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\LoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Middleware\\LoggingMiddleware.cs",
+              "RelativeToolTip": "Middleware\\LoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T14:31:53.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "Gateway.csproj",
+              "DocumentMoniker": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Gateway.csproj",
+              "RelativeDocumentMoniker": "Gateway.csproj",
+              "ToolTip": "C:\\Users\\acost\\Pictures\\API-GASTOS\\ExpenseService\\Gateway.csproj",
+              "RelativeToolTip": "Gateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-18T14:23:35.987Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 670,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
